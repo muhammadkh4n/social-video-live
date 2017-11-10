@@ -1,14 +1,14 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.10.0"
 
-set :application, "social-vid-live"
-set :repo_url, "git@github.com:muhammadkh4n/social-vid-live.git"
+set :application, "social-video-live"
+set :repo_url, "git@github.com:muhammadkh4n/social-video-live.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/home/deploy/social-vid-live"
+set :deploy_to, "/home/deploy/social-video-live"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
