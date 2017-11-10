@@ -1,1 +1,18 @@
-<h1>Hello <i class="fa fa-user"></i> </h1>
+<div class="row justify-content-center">
+  <div class="col-auto">
+    <form class="upload-form">
+      <div class="form-group">
+        <label for="video">Upload Video</label>
+        <input type="file" class="form-control-file" id="upload-video" accept="video/*">
+      </div>
+    </form>
+  </div>
+</div>
+<div class="row justify-content-center">
+  <div class="col-auto">
+    <video width="600" controls>
+      <source id="video" type="video/webm">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+</div>
