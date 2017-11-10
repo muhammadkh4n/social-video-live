@@ -1,5 +1,13 @@
 {
-  "name": "social-vid-live",
+  "name": "social-video-live",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/muhammadkh4n/social-video-live.git",
+  "author": "Muhammad Khan <muhammadkh4n@gmail.com>",
+  "license": "MIT"
 }
